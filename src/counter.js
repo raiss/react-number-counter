@@ -1,9 +1,10 @@
-import React, { component } from 'react';
+import React, { Component } from 'react';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
-class Counter extends component {
+export class Counter extends Component {
   render() {
     return (
-      <div>hello</div>
+      <div>{this.props.number}</div>
     )
   }
 }

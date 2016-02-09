@@ -6,11 +6,11 @@ module.exports = {
   entry: [
     'eventsource-polyfill', // necessary for hot reloading with IE
     'webpack-hot-middleware/client',
-    './src/counter',
+    './src/index',
   ],
   output: {
     path: path.join(__dirname, './dist'),
-    filename: 'counter.js',
+    filename: 'bundle.js',
     publicPath: '/'
   },
   resolve: {

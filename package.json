@@ -18,6 +18,7 @@
   "homepage": "https://github.com/raiss/react-number-counter#readme",
   "dependencies": {
     "react": "^0.14.7",
+    "react-addons-css-transition-group": "^0.14.7",
     "react-dom": "^0.14.7"
   },
   "devDependencies": {
